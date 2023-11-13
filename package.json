@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "noode index.js"
+    "start": "noode index.js",
+    "backend": "json-server --watch ./data/db.json --port 5000"
   },
   "repository": {
     "type": "git",
